@@ -225,9 +225,9 @@ class Game(object):
             self.engageSmoothJazz.Draw(self.screen)
             draw_centered(self.f3.render("SUPER SPACE GAME", True, orange), self.screen, (500, 100))
             draw_centered(self.f1.render("All images and code(excepting pygame) by:", True, brightcyan), self.screen, (850, 200))
-            draw_centered(self.f1.render("Nathaniel Mitchell", True, brightcyan), self.screen, (850, 215))
+            draw_centered(self.f1.render("Austin Mitchell", True, brightcyan), self.screen, (850, 215))
             draw_centered(self.f1.render("bigpapamitchell@gmail.com", True, brightcyan), self.screen, (850, 230))
-            draw_centered(self.f1.render("Raknarg@github.com", True, brightcyan), self.screen, (850, 245))
+            draw_centered(self.f1.render("AustinMitchell@github.com", True, brightcyan), self.screen, (850, 245))
         elif self.state == "INSTRUCTIONS":
             self.starSystem.Draw(self.screen)
             draw_centered(self.instructionImage[self.currentPage], self.screen, (500, 250))
